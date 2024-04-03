@@ -5,8 +5,8 @@ body {
   text-align: center;
   margin: 0;}
 
-main {
-  margin-left: 500px;
+.main {
+  margin-left: 15%;
 }
 
 header {
@@ -20,7 +20,7 @@ header img {
 
 .sidenav {
   height: 100%;
-  width: 500px;
+  width: 15%;
   position: fixed;
   z-index: 1;
   top: 0;
