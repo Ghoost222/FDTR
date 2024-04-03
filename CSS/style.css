@@ -5,6 +5,10 @@ body {
   text-align: center;
   margin: 0;}
 
+main {
+  margin-left: 500px;
+}
+
 header {
   background-color: #292c3c;
   color: white;
@@ -16,16 +20,16 @@ header img {
 
 .sidenav {
   height: 100%;
-  width: 15%;
+  width: 500px;
   position: fixed;
   z-index: 1;
   top: 0;
-  padding: 5%;
-  background-color: black;5
+  padding: 0%;
+  background-color: black;
   overflow-x: hidden;}
 
 .sidenav img {
-  width: 100%;
+  width: 95%;
 }
 
 .floating-box {
