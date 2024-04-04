@@ -1,78 +1,275 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #c9a644;
+  background-color: #000435;
   color: black;
   text-align: center;
-  margin: 0;}
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+html,body{
+  height: 100%;
+}
 
 .sidenav {
   opacity: 1;
   height: 100%;
-  width: 15%;
+  width: 20%;
   position: fixed;
   z-index: 1;
   top: 0;
   padding: 0%;
   background-color: #282828;
-  overflow-x: hidden;}
+  box-shadow: 0 0 20px black;
+  }
 
 .sidenav img {
-  width: 95%;
+  width: 85%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+button {
+  font-size: 22px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: rgb(224, 224, 224);
+  height: 10%;
+  width: 90%;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+.sidenav button:hover {
+  box-shadow: 0 0 20px rgb(251, 255, 44);
+  color: rgb(73, 73, 73);
 }
 
 .main {
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 0%;
+}
+
+
+
+.rng-head {
+  font-size: large;
+  padding: 2%;
+  margin: 0%;
+  width: 100%;
+  height: 20%;
+  background-color: #7D7E98;
+  color: #000435;
+  box-shadow: 0 0 20px black;
+  box-sizing: 100%;
+}
+
+.printer-img {
+  float: left;
+}
+
+.face {
+  width: 40%; 
+  float: left;
+
+  box-shadow: 0 0 20px black;
+  background-color: #282828;
+  color: white;
+  border-radius: 30px;
+
+  margin: 10%;
+  margin-top: 7%;
+  margin-bottom: 5%;
+
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+
+  border: 1px solid black;
+  text-align: left;
+}
+
+.face p {
+  text-indent: 0%;
 }
 
 .promo-video {
-  border: 10px solid black;
+  box-shadow: 0 0 20px black;
+  border: 1px solid black;
   color: white;
 
   background-color: #282828;
-  margin-top: 1%;
+  margin-top: 2%;
   margin-right: 10%;
   margin-left: 10%;
-  padding: 10px;
+  margin-bottom: 5%;
+  padding: 0%;
+  border-radius: 20px;
+
+  width: 80%;
+  height: 670px;
+}
+
+.promo-video-clip {
+  margin: 2%;
+  height: 560px;
+  width: 315px;
+  float: left;
+}
+
+.promo-video-text {
+  color: #a1a2c5;
+  float: right;
+  text-align: left;
+  font-size: 24px;
+  margin: 1%; 
+  width: 550px;
+  border: 0px solid black;
+}
+
+.post1 {
+  box-shadow: 0 0 20px black;
+  background-color: #282828;
+  color: #a1a2c5;
+  border-radius: 30px;
+
+  margin: 10%;
+  margin-top: 0%;
+  margin-bottom: 5%;
+
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+
+  border: 1px solid black;
+  text-align: left;
+}
+
+.post1 h2 {
+  text-align: center;
+  color: white;
+}
+
+
+.team {
+  margin: 2%;
+  float: left;
+
+  width: 65%;
+  height: auto;
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  border: 1px solid black;
+  box-shadow: 0 0 20px black;
+  background-color: #282828;
+  color: white;
+  border-radius: 30px;
+
+  text-align: left;
+}
+
+.team h2 {
+  text-align: center;
+}
+
+.team h3, p {
+  display: inline;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 4%;
+}
+
+.office {
+  margin: 2%;
+  float: right;
+
+  width: 65%;
+  height: auto;
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  border: 1px solid black;
+  box-shadow: 0 0 20px black;
+  background-color: #282828;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.office-img {
+  border-radius: 30px;
+  margin-bottom: 3%;
+}
+
+.office h3, p {
+  display: inline;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 4%;
+}
+
+.office-space {
+  margin: 2%;
+  float: left;
+
+  width: 65%;
+  height: auto;
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  border: 1px solid black;
+  box-shadow: 0 0 20px black;
+  background-color: #282828;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.office-space-img-above {
+  margin-left: 1.5%;
+  float: left;
   border-radius: 20px;
 }
 
-header img {
-  width: 20%;}
+.office-space-img-side {
+  margin-right: 1.5%;
+  float: right;
+  border-radius: 20px;
+}
 
-.post1 {
-  background-color: #282828;
-  color: white;
-  border-radius: 30px;
+.transport {
+  margin: 2%;
+  float: right;
 
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 65%;
+  height: auto;
 
   padding-top: 5%;
   padding-bottom: 5%;
 
-  border: 10px solid black;
+  border: 1px solid black;
+  box-shadow: 0 0 20px black;
+  background-color: #282828;
+  color: white;
+  border-radius: 30px;
+
   text-align: center;
 }
 
-.post1 head {
-  position: left;
-} 
+.transport p {
+  font-size: 16px;
+  margin: 0%;
+}
 
-.post2 {
-  background-color: #282828;
-  color: white;
-  border-radius: 30px;
-
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-  padding-top: 5%;
-  padding-bottom: 5%;
-
-  border: 10px solid black;
-  text-align: center;
+.transport img {
+  margin-top: 3%;
 }
