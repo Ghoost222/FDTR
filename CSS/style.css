@@ -32,7 +32,7 @@ html,body{
 }
 
 button {
-  font-size: 22px;
+  font-size: 120%;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   background-color: rgb(224, 224, 224);
@@ -50,16 +50,14 @@ button {
 .main {
   width: 80%;
   margin-left: 20%;
-  margin-top: 0%;
 }
 
 
 
 .rng-head {
-  font-size: large;
+  font-size: 120%;
   padding: 2%;
-  margin: 0%;
-  width: 100%;
+  width: auto;
   height: 20%;
   background-color: #7D7E98;
   color: #000435;
@@ -84,37 +82,40 @@ button {
   margin-top: 7%;
   margin-bottom: 5%;
 
-  padding-top: 2%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   padding-left: 4%;
+  padding-right: 4%;
 
   border: 1px solid black;
   text-align: left;
 }
 
 .face p {
-  text-indent: 0%;
+  font-size: 120%;
+  margin: 0%;
 }
 
 .promo-video {
   box-shadow: 0 0 20px black;
   border: 1px solid black;
   color: white;
-
   background-color: #282828;
+  border-radius: 20px;
+
   margin-top: 2%;
   margin-right: 10%;
   margin-left: 10%;
   margin-bottom: 5%;
+
   padding: 0%;
-  border-radius: 20px;
 
   width: 80%;
   height: 670px;
 }
 
 .promo-video-clip {
-  margin: 2%;
+  margin-left: 3%;
   height: 560px;
   width: 315px;
   float: left;
@@ -124,10 +125,15 @@ button {
   color: #a1a2c5;
   float: right;
   text-align: left;
-  font-size: 24px;
-  margin: 1%; 
-  width: 550px;
+  font-size: 145%;
+  width: 55%;
   border: 0px solid black;
+  padding-right: 3%;
+}
+
+.promo-video-text p {
+  font-size: 100%;
+  margin: 0%;
 }
 
 .post1 {
@@ -143,15 +149,51 @@ button {
   padding-top: 2%;
   padding-bottom: 5%;
   padding-left: 4%;
+  padding-right: 3%;
 
   border: 1px solid black;
   text-align: left;
+}
+
+.post1 p {
+  margin: 0%;
 }
 
 .post1 h2 {
   text-align: center;
   color: white;
 }
+
+.post-m {
+  box-shadow: 0 0 20px black;
+  background-color: #282828;
+  color: #a1a2c5;
+  border-radius: 30px;
+
+  margin: 10%;
+  margin-top: 0%;
+
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+  padding-right: 3%;
+
+  border: 1px solid black;
+  text-align: left;
+}
+
+.post-m p {
+  margin: 0%;
+}
+
+.post-m h2 {
+  text-align: center;
+  color: white;
+}
+
+
+
+
 
 
 .team {
