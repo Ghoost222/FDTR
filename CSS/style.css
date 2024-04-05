@@ -1,5 +1,7 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "MedievalSharp", cursive;
+  font-style: normal;
+  font-weight: 400;
   background-color: #000435;
   color: black;
   text-align: center;
@@ -21,7 +23,7 @@ html,body{
   z-index: 1;
   top: 0;
   padding: 0%;
-  background-color: #282828;
+  background-color: #00010f;
   box-shadow: 0 0 20px black;
   }
 
@@ -33,7 +35,6 @@ html,body{
 
 button {
   font-size: 120%;
-  font-family:Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   background-color: rgb(224, 224, 224);
   height: 10%;
@@ -53,7 +54,6 @@ button {
 }
 
 
-
 .rng-head {
   font-size: 120%;
   padding: 2%;
@@ -63,6 +63,14 @@ button {
   color: #000435;
   box-shadow: 0 0 20px black;
   box-sizing: 100%;
+}
+
+.rng-box h2 {
+  font-family: "Arial", cursive;
+}
+
+.highlight {
+  filter: drop-shadow(0px 0px 10px rgb(251, 255, 44))
 }
 
 .printer-img {
@@ -203,7 +211,7 @@ button {
   width: 65%;
   height: auto;
 
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 5%;
 
   border: 1px solid black;
@@ -234,7 +242,7 @@ button {
   width: 65%;
   height: auto;
 
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 5%;
 
   border: 1px solid black;
@@ -265,7 +273,7 @@ button {
   width: 65%;
   height: auto;
 
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 5%;
 
   border: 1px solid black;
@@ -295,7 +303,7 @@ button {
   width: 65%;
   height: auto;
 
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 5%;
 
   border: 1px solid black;
@@ -310,8 +318,46 @@ button {
 .transport p {
   font-size: 16px;
   margin: 0%;
+  text-align: center;
+
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .transport img {
   margin-top: 3%;
+  border-radius: 30px;
+}
+
+.contacts {
+  margin: 2%;
+  float: left;
+
+  width: 65%;
+  height: auto;
+
+  padding-top: 3%;
+  padding-bottom: 5%;
+
+  border: 1px solid black;
+  box-shadow: 0 0 20px black;
+  background-color: #282828;
+  color: white;
+  border-radius: 30px;
+
+  text-align: left;
+}
+
+.contacts h3, p {
+  display: inline;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 4%;
+}
+
+.contacts h2 {
+  text-align: center;
 }
